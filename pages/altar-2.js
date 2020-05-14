@@ -3,6 +3,10 @@ import styles from 'components/Content.module.scss'
 export default () => {
   return (
     <div className={styles.content}>
+      <Head>
+        <title>Market Values</title>
+        <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+      </Head>
       <h1>
         Market no 2:
         <br />

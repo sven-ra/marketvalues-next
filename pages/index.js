@@ -1,8 +1,13 @@
+import Head from 'next/head'
 import styles from 'components/Content.module.scss'
 
 export default () => {
   return (
     <article className={styles.content}>
+      <Head>
+        <title>Market Values</title>
+        <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+      </Head>
       <div>
         <h1>Market Values: Mapping design values from post-Soviet markets</h1>
         <p>
