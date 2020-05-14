@@ -1,3 +1,4 @@
+import Head from 'next/head'
 import styles from 'components/Content.module.scss'
 
 export default () => {
