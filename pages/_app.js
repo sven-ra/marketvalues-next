@@ -20,6 +20,14 @@ export default function MyApp({ Component, pageProps }) {
     }
   }, [showOverlay])
 
+  useEffect(() => {
+    document.addEventListener('keydown', (event) => {
+      if (event.keyCode === 27) {
+        setShowOverlay(false)
+      }
+    })
+  }, [])
+
   return (
     <>
       <ImageViewer
