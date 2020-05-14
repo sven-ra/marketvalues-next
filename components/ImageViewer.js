@@ -26,7 +26,6 @@ export default ({ activeImageCallback, activeImage }) => {
       const OpenSeadragon = require('openseadragon')
       const newViewer = new OpenSeadragon({
         id: 'openseadragon1',
-        // prefixUrl: '',
         tileSources: `${imagesUrl}/${activeImage}.dzi`,
         showNavigationControl: false,
         defaultZoomLevel: 1.2,

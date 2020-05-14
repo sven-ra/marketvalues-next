@@ -4,7 +4,11 @@ $navi-padding: 2vw;
 .button {
   position: fixed;
   z-index: 20;
-  width: 8vw;
+  width: 60px;
+
+  @media (min-width: $bp-medium) {
+    width: 8vw;
+  }
 
   &:after,
   img {
