@@ -2,6 +2,8 @@ import { useEffect, useState } from 'react'
 import { useRouter } from 'next/router'
 import styles from './ImageViewer.module.scss'
 
+const imagesUrl = 'https://marketvalues.viieline.ee/seadragon'
+
 export default ({ activeImageCallback, activeImage }) => {
   const router = useRouter()
   const [viewer, setViewer] = useState(null)
@@ -24,8 +26,8 @@ export default ({ activeImageCallback, activeImage }) => {
       const OpenSeadragon = require('openseadragon')
       const newViewer = new OpenSeadragon({
         id: 'openseadragon1',
-        prefixUrl: 'https://marketvalues.viieline.ee/seadragon/',
-        tileSources: `https://marketvalues.viieline.ee/seadragon/${activeImage}.dzi`,
+        // prefixUrl: '',
+        tileSources: `${imagesUrl}/${activeImage}.dzi`,
         showNavigationControl: false,
         defaultZoomLevel: 1.2,
         visibilityRatio: 1,
@@ -33,7 +35,7 @@ export default ({ activeImageCallback, activeImage }) => {
 
       setViewer(newViewer)
     } else if (activeImage) {
-      viewer.open(`/seadragon/${activeImage}.dzi`)
+      viewer.open(`${imagesUrl}/${activeImage}.dzi`)
     }
   }, [activeImage])
 
