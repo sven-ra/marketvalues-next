@@ -1,0 +1,78 @@
+$bp-medium: 800px;
+$navi-padding: 2vw;
+
+.button {
+  position: fixed;
+  z-index: 20;
+  width: 8vw;
+
+  &:after,
+  img {
+    transition: opacity 0.3s ease-in-out;
+  }
+
+  &:after {
+    content: 'Project info';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    opacity: 0;
+    text-align: center;
+    color: black;
+    line-height: 1;
+
+    @media (min-width: $bp-medium) {
+      font-size: 1.4vw;
+    }
+  }
+
+  &:hover {
+    @media (min-width: $bp-medium) {
+      img {
+        opacity: 0.4;
+      }
+
+      &:after {
+        opacity: 1;
+      }
+    }
+  }
+
+  &:nth-child(1) {
+    top: $navi-padding;
+    left: $navi-padding;
+
+    &:after {
+      content: 'Poster info';
+    }
+  }
+
+  &:nth-child(2) {
+    top: $navi-padding;
+    right: $navi-padding;
+
+    &:after {
+      content: 'Project info';
+    }
+  }
+
+  &:nth-child(3) {
+    bottom: $navi-padding;
+    left: $navi-padding;
+
+    &:after {
+      content: 'Previous project';
+    }
+  }
+
+  &:nth-child(4) {
+    bottom: $navi-padding;
+    right: $navi-padding;
+
+    &:after {
+      content: 'Next project';
+    }
+  }
+}
