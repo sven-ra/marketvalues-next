@@ -9,47 +9,34 @@ export default () => {
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
       </Head>
       <h1>
-        Market no 2:
+        Market B:
         <br />
-        streetmarket Keskturg in Tallinn
+        online real estate
       </h1>
       <p>
-        There is a market across the street from my home in Tallinn where I go
-        for seasonal food produce – the market season explodes with strawberries
-        in June and wraps up with sauerkraut before Christmas. In the early
-        spring there is a lady selling plant sprouts for gardening, little baby
-        plants in wet soil wrapped in old newspaper cones. Racks of clothes that
-        change their patterns with the season. Slices of unidentified pickles in
-        jars stacked like layered cake to make pretty stripes. Fresh bread
-        smells float around, either fresh pirogi or a Georgian lavash.
+        I llike to scout online real estate markets for interior design
+        inspiration (I mostly browsed the Estonian city24.ee for this project).
+        I admit some of the images have given me ironic pleasure, I have gasped
+        at many stucco-covered fake marble bathrooms. But there are also
+        interiors with so much heart and expression which I truly admire,
+        interiors that I cannot find anywhere else. My favourites tend to be in
+        the cheap section again, where it is obvious that the interiors are not
+        adding anything to the price of the place. There haven’t been any real
+        estate agents to ‘clean up’ and style the rooms for the assumed popular
+        taste.
       </p>
       <p>
-        This market looks so unkept and ‘dirty’ compared to the gentrified
-        markets but has become so dear to me because it is one of the rare
-        places in the city not yet designed by any one person or architecture
-        team. It has organically and sporadically grown over time, with very DIY
-        kiosks and little shelters to sell from. It is not (yet) sterilized and
-        designed, not yet a market for ‘political consumption’ [1]. It is still
-        too ugly and dirty for that, unfiltered, sellers only validated by the
-        trust they have built with their customers, not a lot of inspection is
-        involved.
+        After having looked at so many pictures of the decorated homes, I have
+        started to recognize rooms with more confident compositions. There is a
+        lot to learn about the intent of decoration that makes a space
+        convincing or not, no matter what theme is at play or what taste
+        difference I have with the decorator.
       </p>
 
-      <ol className={styles.footnotes}>
-        <li>
-          From “Do we have a moral obligation to the market?” by Marija Nemčenko
-          in Kajet magazine (no 3). She is describing a ‘Westernized’ and
-          sterilised version of a street market, which is “presenting a
-          hyper-ethical way of participating in capitalism that is masked as
-          political action. And even if in some cases it might re-introduce
-          local produce, traditional farming, or crafted knowledge, it does so
-          within a framework of luxury, and not necessity. … one can consume in
-          a sanitised and modern fashion, while fully embedding the practice
-          –consciously or not– in the Western understanding of trade. One
-          consumes not only the product, but a glossy shell of political
-          connotations attached to it.
-        </li>
-      </ol>
+      <p>
+        These spaces I’ve never seen represented in design magazines. Not on
+        Pinterest boards. Not documented by many museums.
+      </p>
     </div>
   )
 }

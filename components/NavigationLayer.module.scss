@@ -20,7 +20,6 @@ $navi-padding: 2vw;
   }
 
   &:after {
-    content: 'Project info';
     position: absolute;
     top: 50%;
     left: 50%;
@@ -53,7 +52,7 @@ $navi-padding: 2vw;
     left: $navi-padding;
 
     &:after {
-      content: 'Poster info';
+      content: 'Market info';
     }
   }
 
@@ -62,7 +61,7 @@ $navi-padding: 2vw;
     right: $navi-padding;
 
     &:after {
-      content: 'Project info';
+      content: 'About';
     }
   }
 
@@ -71,7 +70,7 @@ $navi-padding: 2vw;
     left: $navi-padding;
 
     &:after {
-      content: 'Previous project';
+      content: 'Previous market';
     }
   }
 
@@ -80,7 +79,7 @@ $navi-padding: 2vw;
     right: $navi-padding;
 
     &:after {
-      content: 'Next project';
+      content: 'Next market';
     }
   }
 }
