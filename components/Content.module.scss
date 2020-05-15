@@ -24,11 +24,11 @@ $gutter-medium: 4rem;
     }
 
     &:not(:first-of-type) {
-      text-indent: 1.4rem;
+      // text-indent: 1.4rem;
 
-      @media (min-width: $bp-medium) {
-        text-indent: 4rem;
-      }
+      // @media (min-width: $bp-medium) {
+      //   text-indent: 4rem;
+      // }
     }
   }
 
