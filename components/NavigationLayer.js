@@ -20,12 +20,12 @@ export default ({ activeImage, showOverlay, setShowOverlay }) => {
   useEffect(() => {
     setShowOverlay(false)
 
-    if (activeImage === 'altar-1') {
-      setActiveAltars(['altar-3', 'altar-2'])
-    } else if (activeImage === 'altar-2') {
-      setActiveAltars(['altar-1', 'altar-3'])
-    } else if (activeImage === 'altar-3') {
-      setActiveAltars(['altar-2', 'altar-1'])
+    if (activeImage === 'market-a') {
+      setActiveAltars(['market-c', 'market-b'])
+    } else if (activeImage === 'market-b') {
+      setActiveAltars(['market-a', 'market-c'])
+    } else if (activeImage === 'market-c') {
+      setActiveAltars(['market-b', 'market-a'])
     }
   }, [activeImage])
 
