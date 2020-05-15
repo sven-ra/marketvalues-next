@@ -42,11 +42,7 @@ export default () => {
         </p>
       </div>
       <div className={styles.contact}>
-        <h4>
-          Contact:
-          <br />
-          Brit Pavelson
-        </h4>
+        <h4>Contact: Brit Pavelson</h4>
 
         <p>
            instagram:

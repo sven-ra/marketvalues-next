@@ -19,15 +19,7 @@ $gutter-medium: 4rem;
     font-size: 18px;
 
     @media (min-width: $bp-medium) {
-      font-size: 1.4vw;
-    }
-
-    &:not(:first-of-type) {
-      // text-indent: 1.4rem;
-
-      // @media (min-width: $bp-medium) {
-      //   text-indent: 4rem;
-      // }
+      font-size: 1.36vw;
     }
   }
 
@@ -39,7 +31,7 @@ $gutter-medium: 4rem;
     line-height: 1.2;
 
     @media (min-width: $bp-medium) {
-      margin-bottom: 1.2vw;
+      margin-bottom: 1.3vw;
     }
   }
 
@@ -51,7 +43,7 @@ $gutter-medium: 4rem;
     font-size: 20px;
 
     @media (min-width: $bp-medium) {
-      font-size: 1.6vw;
+      font-size: 1.54vw;
     }
   }
 
@@ -79,13 +71,18 @@ $gutter-medium: 4rem;
   }
 
   footer p,
-  ol {
+  ol,
+  h6 {
     font-size: 14px;
     line-height: 1.2;
 
     @media (min-width: $bp-medium) {
       font-size: 0.8vw;
     }
+  }
+
+  h6 {
+    font-weight: normal;
   }
 }
 
