@@ -7,7 +7,6 @@ $gutter-medium: 4rem;
   padding: $gutter-small;
 
   @media (min-width: $bp-medium) {
-    // min-height: 1000px;
     height: 100%;
     column-fill: auto;
     column-gap: $gutter-medium;

@@ -14,7 +14,7 @@ export default () => {
         online real estate
       </h1>
       <p>
-        I llike to scout online real estate markets for interior design
+        I like to scout online real estate markets for interior design
         inspiration (I mostly browsed the Estonian city24.ee for this project).
         I admit some of the images have given me ironic pleasure, I have gasped
         at many stucco-covered fake marble bathrooms. But there are also
