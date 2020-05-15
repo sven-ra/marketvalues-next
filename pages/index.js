@@ -38,7 +38,7 @@ export default () => {
           creativity, the design values I find outside of tasteful territories.
           So this page is to make up for that education gap, looking more into
           the design practices close to my own peripheral living and working
-          conditions in post-Soviet capitalism.{' '}
+          conditions in post-Soviet capitalism.
         </p>
         <p>
           With this project, I want to celebrate the design values these markets
