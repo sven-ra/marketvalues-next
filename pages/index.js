@@ -40,11 +40,6 @@ export default () => {
           the design practices close to my own peripheral living and working
           conditions in post-Soviet capitalism.
         </p>
-        <p>
-          With this project, I want to celebrate the design values these markets
-          embody and learn from them, even if unvalidated still by the Western
-          design canon.
-        </p>
       </div>
       <div className={styles.contact}>
         <h4>
@@ -63,8 +58,8 @@ export default () => {
             &nbsp;@pafkabrit
           </a>
           <br /> <a href="mailto:brit@viieline.ee">brit@viieline.ee</a>
-          <p>Code by: Sven Raju</p>
         </p>
+        <p>Code by: Sven Raju</p>
       </div>
       <footer>
         <p>
