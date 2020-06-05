@@ -11,38 +11,51 @@ export default () => {
       <div>
         <h1>Market Values: Mapping design values from post-Soviet markets</h1>
         <p>
-          This page is a mapping of design values I have found browsing around
-          local markets in Estonia, both physical and online. Through continous
-          collecting of mostly cheap objects (which don’t identify as ‘design’)
-          I have learned methods and values that I find to be missing in the
-          current professional design discourse. Through this research I have
-          found ideas for emotional sustainability, for creative reuse, I have
-          found admirable relationships to time and materials through decorative
-          practices. All of this I find important to synthesize into
-          contemporary design tools and bring into my design practice.
+          This project is a search for an optimistic future scenario in my
+          relationship with the graphic design profession I hold. Looking for
+          ways to switch in my visual reality and communal memories in order to
+          create meaningful, emotionally connected visual expression that would
+          be a joy to make.
         </p>
         <p>
-          The project got its energy from a realization I had during my Master’s
-          studies in Sweden, that I used to study design based on the assumption
-          that I want to relate to my material world in the same way that the
-          Western design canon proposes. I come from Estonia but have previously
-          studied design also in the Netherlands. Referencing Bauhaus or
-          ‘scandi’ design has high currency in the culture that I come from, it
-          is the way to add value to objects. Modernism has high value maybe
-          even more so culturally than economically.
+          The project got its energy from a realization I had during my studies,
+          that I have spent most of my design-related life training my brain
+          with Western design principles. I come from Estonia but have studied
+          in art universities in Amsterdam and Stockholm. Thing is, before
+          studying in Sweden, I didn’t think of myself as not Western. I’ve
+          always considered myself European, which sounds the same as Western.
+          But I discovered that I can't have ideological discussions with the
+          same toolbox that a Scandinavian person my age can. Or that I cannot
+          relate to consumer culture in the same manner as a person grown up in
+          old capitalism does. I don’t have nostalgia towards clothing brands. I
+          don’t know what ‘brand loyalty’ feels like. And so on. My history and
+          experience with consumer culture and the designed world is clearly
+          different from Western Europe. It sounds like big words, but comes
+          down to simple relationship with daily objects. And all of this is
+          entirely a subject of design, I feel. I studied design based on the
+          assumption that I want to relate to my material world in the same way
+          that the Western design canon proposes, but something has gotten itchy
+          about it.
         </p>
         <p>
-          I have learned a lot from design theories rooted in modernism and born
-          mostly in distant realities, but haven’t really dared to indulge in
-          the attraction I feel towards local knick knack and domestic
-          creativity, the design values I find outside of tasteful territories.
-          So this page is to make up for that education gap, looking more into
-          the design practices close to my own peripheral living and working
-          conditions in post-Soviet capitalism.
+          Referencing Bauhaus or ‘scandi’ design has high currency in the
+          culture that I come from. Relating to the heritage of modernism adds
+          value maybe even more so culturally than economically. But each time I
+          practice those values, I feel a burn in my fingers. I grieve for the
+          energy that I didn’t spend on observing and synthesizing conditions
+          closer to me. Each time I inhabit that educated designer role and echo
+          the Western canon, it feels like I’m deleting something as much as I
+          am creating something “new”.
         </p>
+        <p>
+          That is why I took some time to look at the stuff that has little
+          value at various second hand and online markets. Because they must be
+          carrying a very different legacy to be that cheap.
+        </p>
+        <p>x Brit</p>
       </div>
       <div className={styles.contact}>
-        <h4>Contact: Brit Pavelson</h4>
+        <h4>Contact</h4>
 
         <p>
            instagram:
@@ -55,7 +68,12 @@ export default () => {
           </a>
           <br /> <a href="mailto:brit@viieline.ee">brit@viieline.ee</a>
         </p>
-        <p>Code by: Sven Raju</p>
+        <p>
+          Code by:{' '}
+          <a href="https://svenerikraju.ee" target="_blank">
+            Sven Raju
+          </a>
+        </p>
       </div>
       <footer>
         <p>
