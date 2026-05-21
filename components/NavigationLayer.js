@@ -5,10 +5,8 @@ import styles from 'components/NavigationLayer.module.scss'
 
 const AltarButton = ({ altar }) => {
   return (
-    <Link href={altar}>
-      <a className={`${styles.prev} ${styles.button}`}>
-        <img src={`images/${altar}-thumb.jpg`} />
-      </a>
+    <Link href={altar} className={`${styles.prev} ${styles.button}`}>
+      <img src={`images/${altar}-thumb.jpg`} />
     </Link>
   )
 }
