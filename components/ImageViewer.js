@@ -1,8 +1,8 @@
 import { useEffect, useState } from 'react'
 import { useRouter } from 'next/router'
-import styles from './ImageViewer.module.scss'
+import styles from './ImageViewer.module.css'
 
-const imagesUrl = 'https://marketvalues.viieline.ee/'
+const imagesUrl = 'https://marketvalues-assets.viieline.ee/'
 
 export default ({ activeImageCallback, activeImage }) => {
   const router = useRouter()

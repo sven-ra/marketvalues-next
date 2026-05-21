@@ -1,5 +1,5 @@
 import Head from 'next/head'
-import styles from 'components/Content.module.scss'
+import styles from 'components/Content.module.css'
 
 export default () => {
   return (

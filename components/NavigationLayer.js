@@ -1,7 +1,7 @@
 import { useRouter } from 'next/router'
 import { useEffect, useState } from 'react'
 import Link from 'next/link'
-import styles from 'components/NavigationLayer.module.scss'
+import styles from 'components/NavigationLayer.module.css'
 
 const AltarButton = ({ altar }) => {
   return (

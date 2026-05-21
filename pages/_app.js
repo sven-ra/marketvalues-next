@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react'
 import NavigationLayer from 'components/NavigationLayer'
 import ImageViewer from 'components/ImageViewer'
 import InfoLayer from 'components/InfoLayer'
-import '../styles/main.scss'
+import '../styles/globals.css'
 
 export default function MyApp({ Component, pageProps }) {
   const [activeImage, setActiveImage] = useState(null)

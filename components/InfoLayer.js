@@ -1,4 +1,4 @@
-import styles from 'components/InfoLayer.module.scss'
+import styles from 'components/InfoLayer.module.css'
 
 export default ({ children, setShowOverlay }) => {
   return (
